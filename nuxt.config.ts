@@ -11,7 +11,7 @@ export default defineNuxtConfig({
 			  { name: 'viewport', content: 'width=device-width, initial-scale=1' },
 			  { hid: 'description', name: 'description', content: 'Nowoczesna, rozwijająca się firma z Torunia. Zajmujemy się inwestycjami w nieruchomosci, technologię oraz ludzi. Wynajem i sprzedaż budynków, pomieszczeń na działalność gospodarczą.' },
 			  { name: 'format-detection', content: 'telephone=no' },
-			  { name: 'keywords', content: 'inowrocław, inowroclaw, euro, grant, eurogrant, euro-grant'}
+			  { name: 'keywords', content: 'inowrocław, inowroclaw, euro, grant, eurogrant, euro-grant, geodezja'}
 			],
 			link: [
 			  { rel: 'icon', type: 'image/x-icon', href: '/img/sygnet.png' },
