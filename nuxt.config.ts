@@ -14,7 +14,7 @@ export default defineNuxtConfig({
 			  { name: 'keywords', content: 'inowrocław, inowroclaw, euro, grant, eurogrant, euro-grant'}
 			],
 			link: [
-			  { rel: 'icon', type: 'image/x-icon', href: '' },
+			  { rel: 'icon', type: 'image/x-icon', href: '/img/sygnet.png' },
 			  { rel: 'preconnect', href: 'https://fonts.googleapis.com'},
 			  { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
 			  { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Poppins:display=swap' },
