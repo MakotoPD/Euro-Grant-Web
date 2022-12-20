@@ -1,0 +1,110 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body{
+	background-color: #F6F6F6;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+.headerImg::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 10px;
+    right: 10px;
+    background-color: #2FAC66;
+    z-index: -1;
+}
+
+h2{
+	font-size: 1.5rem;
+	padding-left: 10px;
+	position: relative;
+	width: fit-content;
+	height: fit-content;
+	margin-bottom: 3rem;
+}
+h2::after{
+	content: "";
+    position: absolute;
+    width: 130%;
+    height: 45%;
+    bottom: 0px;
+    left: 10px;
+    background-color: #F3A53D;
+    z-index: -1;
+}
+
+.ofertaContainer::before{
+	content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 20px;
+    right: 10px;
+    background-color: #2FAC66;
+    z-index: -1;
+}
+
+.wykorzystanie{
+	position: relative;
+	width: fit-content;
+	height: fit;
+	font-weight: 500;
+	font-size: 0.9rem;
+	margin-bottom: .5rem;
+}
+
+.wykorzystanie::after{
+	content: "";
+    position: absolute;
+    width: 100%;
+    height: 45%;
+    bottom: 0px;
+    right: 5px;
+    background-color: #2FAC66;
+    z-index: -1;
+}
+
+@media (min-width: 768px) {
+	.wykorzystanie{
+		font-size: 1rem !important;
+	}
+}
+
+@media (min-width: 640px) {
+
+	.hero{
+		grid-template-columns: repeat(2, 1fr) !important;
+		grid-template-rows: 1fr !important;
+	}
+	
+	.heroelement1{
+		grid-area: 1 / 2 / 2 / 3 !important;
+	}
+	.heroelement2{
+		grid-area: 1 / 1 / 2 / 2 !important;
+	}
+}
+
+.hero{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(3, 1fr);
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+}
+
+.heroelement1{
+	grid-area: 1 / 1 / 3 / 2;
+}
+.heroelement2{
+	grid-area: 3 / 1 / 4 / 2;
+}
+
+.footer{
+	background-color: #2FAC66;
+}
