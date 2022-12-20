@@ -69,7 +69,7 @@
 			</div>
 		</div>
 
-		<img src="/vectors/waves3.svg" alt="" class="absolute -top-10 -z-10">
+		<img src="/vectors/waves3.svg" alt="" class="absolute -top-10 right-0 -z-10">
 	</div>
 </template>
 
